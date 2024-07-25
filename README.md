@@ -30,8 +30,8 @@ EVM            : 0x7086918cD79Db480cEEF0eB473C4290936EA40ec
 ## Deployed Token
 
 ```
-Token Name   : Qby
-Token Symbol : Q
+Token Name   : IZYY
+Token Symbol : pIZZY
 ```
 
 ## Transaction
