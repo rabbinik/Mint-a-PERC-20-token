@@ -1,82 +1,53 @@
-# Swisstronik Tesnet Techinal Task 4 (Mint a PERC20 Token)
+# Swisstronik Developers' Challenge PERC20
 
-link : [Click!](https://www.swisstronik.com/testnet2/dashboard)
+This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
 
-Feel free donate to my EVM address
+## Task
 
-EVM :
+Create a PERC20 token, deploy the contract to the Swisstronik network, mint and transfer 1 token to 0x16af037878a6cAce2Ea29d39A3757aC2F6F7aac1
 
-```bash
-0x9902C3A98Df4b240ad5496cC26F89bAb8058f4aE
-```
+## Setup
 
-## Steps
+1. Copy .env.example to .env
+2. Update file .env with add PRIVATE_KEY
+3. Save
 
-### 1. Clone Repository
+## Usage
 
-```bash
-git clone https://github.com/Mnuralim/swisstronik-perc20-mint-token.git
-```
-
-```
-cd swisstronik-perc20-mint-token
-```
-
-### 2. Install Dependency
-
-```bash
-npm install
-```
-
-### 3. Set .env File
-
-create .env file in root project
-
-```bash
-PRIVATE_KEY="your private key"
-```
-
-### 4. Update Smart Contract (Skipp if you won't modify Token name)
-
-- Open contracts folder
-- Open PERC20Sample.sol file
-- Feel free to modify token name and token symbol
-
-### 5. Compile Smart Contract
-
-```bash
-npm run compile
-```
-
-### 6. Deploy Smart Contract
-
-```bash
+```shell
 npm run deploy
-```
-
-### 7. Mint Token
-
-```bash
 npm run mint
-```
-
-### 8. Transfer Token
-
-```bash
 npm run transfer
 ```
 
-### 8. Finsihed
+## Deployed Contracts
 
-- Open the deployed-adddress.ts (location in utils folder)
-- Copy the address and paste the address into testnet dashboard
-- Open the tx-hash.txt (location in utils folder)
-- Copy the address and paste the tx hash link into testnet dashboard
-- push this project to your github and paste your repository link in testnet dashboard
+```
+Smart Contract : 0x79B796b2f023685c503dA99C32eCfbba024FceeA
+EVM            : 0x7086918cD79Db480cEEF0eB473C4290936EA40ec
+```
 
-by :
-github : [Mnuralim](https://github.com/Mnuralim)
-twitter : @Izzycracker04
-telegram : @fitriay19
+## Deployed Token
 
-0xCd825ae0335190f4c8882DF16FB0577d478b3898
+```
+Token Name   : Qby
+Token Symbol : Q
+```
+
+## Transaction
+
+### Mint Token
+
+```
+https://explorer-evm.testnet.swisstronik.com/tx/0xddd22416858028f01bd3949cc43331cf5baf009b1b4e1d35e48b1eba7d78a65e
+```
+
+TX Transfer
+Token Transfer "1" to Address ```0x16af037878a6cAce2Ea29d39A3757aC2F6F7aac1```
+
+```
+https://explorer-evm.testnet.swisstronik.com/tx/0xce2a0c03ba6a4e49c5f7aae4c194421ca72d8423dcb4cdf13b5e4991d47a33fe
+```
+## Image Proof
+
+![alt text](<Screenshot 2024-07-25 205629.png>)
